@@ -21,6 +21,10 @@ public static void main(String[]args) {
 		location1=location1+rolled;
 		System.out.println(location1);
 	
-	
+	if(location1 == 1) {
+		System.out.println("You are on Old Kent Road");
+		System.out.println("Do you want to bye it?");
+		System.out.println("It costs $60");
+	}
 }
 }
